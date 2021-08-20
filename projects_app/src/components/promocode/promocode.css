@@ -1,0 +1,8 @@
+.promo-code-button{
+    /* color: red; */
+  text-decoration: underline;
+}
+.promo-code-button:active{
+    outline: none;
+    border: none;
+}

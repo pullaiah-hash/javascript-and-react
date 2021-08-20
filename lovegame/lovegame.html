@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<p class="love-score"></p>    
+<p class="love-message"></p>
+    <script>
+        prompt("eneter u r name")
+        prompt("enter u  r lover name")
+        let loveScore= Math.floor(Math.random()*100)+1
+        let loveMessege
+        let lovePercentage
+        if(loveScore>30 && loveScore<50){
+            document.querySelector(".love-score").textContent="The percentage is "+loveScore+"%"
+            document.querySelector(".love-message").textContent="you people are meet soon"
+         }else if(loveScore>50 && loveScore<100){
+            document.querySelector(".love-score").textContent="The percentage is "+loveScore+"%"
+            document.querySelector(".love-message").textContent=" god decided to marry both of you"
+          
+        }else{
+            document.querySelector(".love-message").textContent=" you people are not matched" 
+        }
+    </script>
+</body>
+</html>
